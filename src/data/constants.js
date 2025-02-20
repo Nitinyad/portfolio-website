@@ -171,7 +171,7 @@ export const Bio = {
       title : "Multithreaded Proxy Web Server",
       date : "Nov 2024",
       description : "Multiple client connected to the same network requesting the same site again and again it take lot of time request to the same server , here proxy web server help to resolve this problem , in this project, if any client visit any website then web server will store that response into the cache , for the future requesting client.",
-      image : "https://private-user-images.githubusercontent.com/92179118/397498914-46b60cc2-f8c1-48a7-9e75-8c2a8e4c7b07.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAwNTQyMzAsIm5iZiI6MTc0MDA1MzkzMCwicGF0aCI6Ii85MjE3OTExOC8zOTc0OTg5MTQtNDZiNjBjYzItZjhjMS00OGE3LTllNzUtOGMyYThlNGM3YjA3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIwVDEyMTg1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI1M2I2ZjkzYTc2NTY3YjE1ZmQ5YjkxM2UzOGEwMWNmYzM1NjQ3YTAxNzI5MTcwZmY0MjAyZmZkYzZkMWNjOGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ekLfubWSSScNIttI4YArC4hNI13F2naoaU1serYd41A",
+      image : "https://i.postimg.cc/WpfLCBGY/multithreaded.png",
       tags: ["C" , "pthreads" , "socket programming"],
       category : "program"
     },
