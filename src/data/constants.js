@@ -9,7 +9,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Nitinyad",
     resume:
-      "https://drive.google.com/file/d/1KqNWR9ewySeeXHPkvs7vFDZxnuWvGOXq/view?usp=sharing",
+      "https://drive.google.com/file/d/1ofGlO7TWvk3mv6SEhGiqnbMj4Zb1_yA5/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/nitin-yadav-b54a861a4/",
     twitter: "https://twitter.com/NitinYa40331830",
     insta: "https://www.instagram.com/nitinyadav4098/",
@@ -147,7 +147,7 @@ export const Bio = {
     },
     {
       id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDUGMhxOawx5TpPr4V-GftCibFlMLlhJHi1R9CqiR-04vz6QL6Ay4&s",
       school: "Yaduvanshi Shiksha Niketan , Mahendragarh , Haryana ,123029",
       date: "Apr 2018 - Apr 2019",
       grade: "87%",
@@ -156,7 +156,7 @@ export const Bio = {
     },
     {
       id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
+      img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaDUGMhxOawx5TpPr4V-GftCibFlMLlhJHi1R9CqiR-04vz6QL6Ay4&s",
       school: "Yaduvanshi Shiksha Niketan , Mahendragarh , Haryana ,123029",
       date: "Apr 2017",
       grade: "93.1%",
@@ -166,46 +166,68 @@ export const Bio = {
   ];
   
   export const projects = [
-    
     {
-      id: 1,
-      title: "Vexa",
-      date: "Oct 2022 - Present",
-      description:
-        "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-      image:
-        "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-      tags: [
-        "React Js",
-        "MongoDb",
-        "Node Js",
-        "Express Js",
-        "Redux",
-        "NodeMailer",
-      ],
-      category: "web app",
+      id : 1 ,
+      title : "Multithreaded Proxy Web Server",
+      date : "Nov 2024",
+      description : "Multiple client connected to the same network requesting the same site again and again it take lot of time request to the same server , here proxy web server help to resolve this problem , in this project, if any client visit any website then web server will store that response into the cache , for the future requesting client.",
+      image : "https://private-user-images.githubusercontent.com/92179118/397498914-46b60cc2-f8c1-48a7-9e75-8c2a8e4c7b07.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAwNTQyMzAsIm5iZiI6MTc0MDA1MzkzMCwicGF0aCI6Ii85MjE3OTExOC8zOTc0OTg5MTQtNDZiNjBjYzItZjhjMS00OGE3LTllNzUtOGMyYThlNGM3YjA3LlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIwVDEyMTg1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWI1M2I2ZjkzYTc2NTY3YjE1ZmQ5YjkxM2UzOGEwMWNmYzM1NjQ3YTAxNzI5MTcwZmY0MjAyZmZkYzZkMWNjOGUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.ekLfubWSSScNIttI4YArC4hNI13F2naoaU1serYd41A",
+      tags: ["C" , "pthreads" , "socket programming"],
+      category : "program"
     },
-    
     {
-      id: 4,
+      id : 2 ,
+      title : "Multithreaded MergeSort",
+      date : "Oct 2024",
+      description : "Optimized sorting for large datasets, reducing execution time from 25 sec to 1.8 sec using multithreading.",
+      image: "https://private-user-images.githubusercontent.com/92179118/387517320-8ec1ef16-479a-449b-af22-8a9faac865fb.PNG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDAwNTQ0MjQsIm5iZiI6MTc0MDA1NDEyNCwicGF0aCI6Ii85MjE3OTExOC8zODc1MTczMjAtOGVjMWVmMTYtNDc5YS00NDliLWFmMjItOGE5ZmFhYzg2NWZiLlBORz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTAyMjAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUwMjIwVDEyMjIwNFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWMwNWVjZDljYTY4ZjUyNGFlNmRkODE0OGFkYWI1OTM2NjdkZTQ0NmY0M2E0ZmJkNzEyYzIyMjA4ZmZjZmE4OGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.Q-qXRWUCnHcqHLSoHusTzBRANPtaPRPN6TxJewMSSQw",
+      tags : ["C++" , "threads"]
+    },
+    {
+      id: 3,
       title: "Chatting Application",
-      date: "Jul 2023",
+      date: "March 2024",
       description:
-        "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+        "A WhatsApp clone made with React JS, MongoDB, and Chakra UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
       image:
         "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-      tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      tags: ["React Js", "Mongodb", "SocketIO", "Node JS"],
       category: "web app",
     },
     {
-      id: 5,
+      id : 8 ,
+      title : "Blogging Website",
+      date : "Feb 2024",
+      description : "A Blogging website using React and firebase for the data storage",
+      image : "https://i.postimg.cc/ZYdwcXqh/bloggingweb.png",
+      tags : ["ReactJs" , "Firebase" ]
+    },
+    {
+      id : 4 ,
+      title : "CodeEditor",
+      date : "Nov 2023",
+      description : " Developed a real-time collaborative code editor Multi-user Collaboration: Multiple users can join a room with a unique room ID SynchronizationEnsures all clients are kept in sync in real time.Syntax Highlighting: Supports syntax highlighting with distinct coloring for variables and functions",
+      image : "https://i.postimg.cc/50fRG3Km/codeeditor.png",
+      tags : ["Reactjs" , "SocketIO" , "CodeMirror"],
+      category : "web app"
+    },
+    {
+      id : 5 ,
+      title : "Ecommerce Website",
+      date : "Jul 2023",
+      description:"Web application to perform online shopping and transactions",
+      image: "https://i.postimg.cc/nh7Sh56k/ecommerce.png",
+      tags : ["React" , "Redux" , "Node.js ", "MongoDB" , "Stripe"]
+    },
+    {
+      id: 6,
       title: "Todo Web App",
       date: "Jun 2021",
       description:
         " A Todo Web App made with React JS, Redux, and Material UI. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the tasks and can create a new task. It has a calendar where users can see all the tasks on a particular date. It has a search bar where users can search for a particular task.",
       image:
-        "https://camo.githubusercontent.com/a328255ad96f861f57d25096d28018ab2656c689a1456b0d145764009bed2d1a/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f746f646f2d6170702d63386331392e61707073706f742e636f6d2f6f2f53637265656e73686f74253230283938292e706e673f616c743d6d6564696126746f6b656e3d33643335646366322d626666322d343730382d393031632d343232383866383332386633",
-      tags: ["React Js", "Local Storage", "AWS Auth", "Node JS"],
+        "https://i.postimg.cc/3xC6ZVnw/todo-project.png",
+      tags: ["React Js", "Local Storage"],
       category: "web app",
     },
     {
